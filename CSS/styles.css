@@ -1,4 +1,11 @@
-.card-body {
-  margin-left: 10%;
-  margin-right: 10%;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  margin-top: 1%;
+}
+
+.card-body { 
+  text-align: left;
 }
