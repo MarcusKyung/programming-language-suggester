@@ -7,19 +7,21 @@ function decisionTree(event) {
   const question5 = document.querySelector("input[name='q5']:checked").value;
 
   let result;
-  if ((question1 === "true") && (question2, question3, question4, question5 === "true" || question2, question3, question4, question5 === "false")) {
+  if ((question1 === "true")) {
     result = "Swift";
-  } else if ((question1 === "false" && question2 === "true") && (question3, question4, question5 === "true" || question3, question4, question5 === "false"))  {
+  } else if ((question1 === "false" && question2 === "true"))  {
     result = "COBOL";
-  } else if ((question1 === "false" && question2 === "true" && question3 === "true") && (question4, question5 === "true" || question4, question5 === "false")) {
+  } else if ((question1 === "false" && question2 === "false" && question3 === "true")) {
     result = "JavaScript";
-  } else if ((question1 === "false" && question2 === "true" && question3 === "true" && question4 === "true") && (question5 === "true" || question5 === "false")) {
+  } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "true")) {
     result = "Python";
-  } else if ((question1 === "false" && question2 === "true" && question3 === "true" && question4 === "true") && (question5 === "true")) {
+  } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "false" && question5 === "true")) {
     result = "Java";
-  } else if ((question1 === "false" && question2 === "true" && question3 === "true" && question4 === "true") && (question5 === "false")) {
+  } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "false" && question5 === "false")) {
     result = "Ruby";
-  } 
+  } else {
+    result = "JavaScript is a great place to start!"
+  }
 
   document.getElementById("language-selection").innerText = result;
 }
