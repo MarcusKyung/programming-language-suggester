@@ -10,62 +10,75 @@
   <script src="js/scripts.js"></script>
 </head>
 <body>
-  <h1>Programming Language Suggester</h1>
-  <p>Welcome! Interested in programming? With so many programming languages used today it can be hard to know where to start. Use this website to help you determine which programming language is right for you! This handy tool helps you determine which of five common programming languages is right for you. Answer five yes/no questions below then hit submit to have your answer displayed below!</p>
-  <h2>About Each Programming Language</h2>
-  <p>
-    <ul>
-      <li><b>Python</b> - a high-level, general-purpose programming language. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.</li>
-      <li><b>C#</b> - a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.</li>
-      <li><b>Swift</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
-      <li><b>Ruby</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
-      <li><b>COBOL</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
-    </ul>
-  </p>
-  <form id="languagePicker">
-    <ol>
-      <li>
-        <label id="q1">Do you want to do iOS mobile development only?:
-          <input type="radio" name="q1" value="true"> Yes
-          <input type="radio" name="q1" value="false"> No
-        </label>
-      </li>
-      <br>
-      <br>
-      <li>
-        <label id="q2"> Do you want to learn a language named after a snake?:
-          <input type="radio" name="q2" value="true"> Yes
-          <input type="radio" name="q2" value="false"> No
-        </label>
-      </li>
-      <br>
-      <br>
-      <li>
-        <label id="q3"> Do you want to learn a language named after a snake?:
-          <input type="radio" name="q3" value="true"> Yes
-          <input type="radio" name="q3" value="false"> No
-        </label>
-      </li>
-      <br>
-      <br>
-      <li>
-        <label id="q4"> Do you want to learn a language named after a snake?:
-          <input type="radio" name="q4" value="true"> Yes 
-          <input type="radio" name="q4" value="false"> No
-        </label>
-      </li>
-      <br>
-      <br>
-      <li>
-        <label id="q5"> Do you want to learn a language named after a snake?:
-          <input type="radio" name="q5" value="true"> Yes
-          <input type="radio" name="q5" value="false"> No
-        </label>
-      </li>
-    </ol>
-  <button type="submit">Submit</button>
-  </form>
-  <h2>Results:</h2>
-  <p id="language-selection"></p>
+  <div class="card">
+    <div class="card-body">
+      <h1>Programming Language Suggester</h1>
+      <p>Welcome! Interested in programming? With so many programming languages used today it can be hard to know where to start. Use this website to help you determine which programming language is right for you! This handy tool helps you determine which of five common programming languages is right for you. Answer five yes/no questions below then hit submit to have your answer displayed below!</p>
+      <h2>About Each Programming Language</h2>
+      <p>
+        <ul>
+          <li><a href="https://www.python.org/"><b>Python</b></a> - a high-level, general-purpose programming language. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.</li>
+          <li><a href="https://www.python.org/"><b>C#</b></a> - a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.</li>
+          <li><a href="https://www.python.org/"><b>Swift</b> </a>- a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community.</li>
+          <li><a href="https://www.python.org/"><b>Ruby</b></a> - interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity.</li>
+          <li><a href="https://www.python.org/"><b>Java</b></a> - a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</li>
+          <li><a href="https://www.python.org/"><b>JavaScript</b></a> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <form id="languagePicker">
+        <ol>
+          <li>
+            <label id="q1">Do you want to do iOS mobile development only?:
+              <input type="radio" name="q1" value="true"> Yes
+              <input type="radio" name="q1" value="false"> No
+            </label>
+          </li>
+          <br>
+          <br>
+          <li>
+            <label id="q2"> Do you want to learn a language named after a snake?:
+              <input type="radio" name="q2" value="true"> Yes
+              <input type="radio" name="q2" value="false"> No
+            </label>
+          </li>
+          <br>
+          <br>
+          <li>
+            <label id="q3"> Do you want to learn a language named after a snake?:
+              <input type="radio" name="q3" value="true"> Yes
+              <input type="radio" name="q3" value="false"> No
+            </label>
+          </li>
+          <br>
+          <br>
+          <li>
+            <label id="q4"> Do you want to learn a language named after a snake?:
+              <input type="radio" name="q4" value="true"> Yes 
+              <input type="radio" name="q4" value="false"> No
+            </label>
+          </li>
+          <br>
+          <br>
+          <li>
+            <label id="q5"> Do you want to learn a language named after a snake?:
+              <input type="radio" name="q5" value="true"> Yes
+              <input type="radio" name="q5" value="false"> No
+            </label>
+          </li>
+        </ol>
+      <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h2>You Should Learn:</h2>
+      <p id="language-selection"></p>
+    </div>
+  </div>
 </body>
 </html>
