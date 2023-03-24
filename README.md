@@ -22,7 +22,6 @@ _This application is designed to assist users in selecting a coding language to 
 * _Open index.html_
 * _Follow instructions on screen to answer questions_
 * _Receive suggestion on which programming language to learn first_
-* _Hit reset or reload the page to clear responses and results and try again_
 
 ## Known Bugs
 
@@ -30,7 +29,7 @@ _This application is designed to assist users in selecting a coding language to 
 
 ## License
 
-_For questions
+_For questions, comments, or concerns please reach out at Kyungmj@gmail.com_
 
 _MIT License
 
