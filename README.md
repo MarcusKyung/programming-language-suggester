@@ -13,7 +13,7 @@
 
 ## Description
 
-_This application is designed to assist users in selecting a coding language to learn based on several queries regarding their personality and programming ambitions. Users provide answers to each question and are asked to submit responses. Users are then presented with one of three coding language recommendations. This application is also available on GH Pages at: _
+_This application is designed to assist users in selecting a coding language to learn based on several queries regarding their personality and programming ambitions. Users provide answers to each question and are asked to submit responses. Users are then presented with one of three coding language recommendations. This application is also available on GH Pages at: https://marcuskyung.github.io/programming-language-suggester/._
 
 ## Setup/Installation Requirements
 
