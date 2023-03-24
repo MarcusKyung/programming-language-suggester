@@ -8,22 +8,30 @@ function decisionTree(event) {
 
   let result;
   if ((question1 === "true")) {
-    result = "Swift";
+    resultName = "Swift"
+    resultDescription = "Swift. Swift is a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community for use with iOS, macOS, watchOS, and tvOS.";
   } else if ((question1 === "false" && question2 === "true"))  {
-    result = "COBOL";
+    resultName = "COBOL"
+    resultDescription = "COBOL. COBOL is a compiled English-like computer programming language designed for business use. It is an imperative, procedural and, since 2002, object-oriented language. COBOL is primarily used in business, finance, and administrative systems for companies and governments.";
   } else if ((question1 === "false" && question2 === "false" && question3 === "true")) {
-    result = "JavaScript";
+    resultName = "JavaScript"
+    resultDescription = "JavaScript. JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.";
   } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "true")) {
-    result = "Python";
+    resultName = "Python"
+    resultDescription = "Python. Python is a high-level, general-purpose programming language. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.";
   } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "false" && question5 === "true")) {
-    result = "Java";
+    resultName = "Java"
+    resultDescription = "Java. Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.";
   } else if ((question1 === "false" && question2 === "false" && question3 === "false" && question4 === "false" && question5 === "false")) {
-    result = "Ruby";
+    resultName = "Ruby"
+    resultDescription = "Ruby. Ruby is a interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. It was designed with an emphasis on programming productivity and simplicity.";
   } else {
-    result = "JavaScript is a great place to start!"
+    resultName = "JavaScript"
+    resultDescription = "JavaScript is a great place to start! JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS."
   }
 
-  document.getElementById("language-selection").innerText = result;
+  document.getElementById("languageName").innerText = "You Should Learn:" + resultName;
+  document.getElementById("languageDescription").innerText = resultDescription;
 }
 
   window.addEventListener("load", function () {
