@@ -9,7 +9,7 @@ function decisionTree(event) {
   let result;
   if ((question1 === "true")) {
     resultName = "Swift"
-    resultDescription = "Swift. Swift is a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community for use with iOS, macOS, watchOS, and tvOS.";
+    resultDescription = "Swift. Based on your desire to work with Swift is a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community for use with iOS, macOS, watchOS, and tvOS.";
   } else if ((question1 === "false" && question2 === "true"))  {
     resultName = "COBOL"
     resultDescription = "COBOL. COBOL is a compiled English-like computer programming language designed for business use. It is an imperative, procedural and, since 2002, object-oriented language. COBOL is primarily used in business, finance, and administrative systems for companies and governments.";
@@ -31,7 +31,7 @@ function decisionTree(event) {
   }
 
   document.getElementById("languageName").innerText = "You Should Learn:" + resultName;
-  document.getElementById("languageDescription").innerText = resultDescription;
+  document.getElementById("languageDescription").innerText = "Based on your results, you should learn: " + resultDescription;
 }
 
   window.addEventListener("load", function () {

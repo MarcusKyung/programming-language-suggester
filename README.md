@@ -19,9 +19,9 @@ _This application is designed to assist users in selecting a coding language to 
 
 * _Clone this repository to your desktop._
 * _Navigate to the top level of the directory_
-* _Open index.html_
+* _Open index.html file in your browser_
 * _Follow instructions on screen to answer yes/no questions by clicking radio buttons_
-* _Receive suggestion on which programming language to learn_
+* _Click submit button to receive suggestion on which programming language to learn_
 
 ## Known Bugs
 
