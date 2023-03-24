@@ -7,23 +7,17 @@ function decisionTree(event) {
   const q5 = document.querySelector("input#q5").value;
 
   let result;
-  if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  } else if (condition) {
-    result = "language";
-  }
+  if (q1 === "false") {
+    result = "Swift";
+  } else if (q1 === "true" && q2 === "false" && q3 === "false") {
+    result = "PHP";
+  } else if (q1 === "true" && q2 === "true" && q4 === "true") {
+    result = "JavaScript";
+  } else if (q1 === "true" && q2 === "false" && q3 === "true" && q5 === "false") {
+    result = "Ruby";
+  } else if (q1 === "true" && q2 === "false" && q3 === "true" && q5 === "true") {
+    result = "Rust";
+  } 
 
   document.getElementById("language-selection").innerText = result;
 }

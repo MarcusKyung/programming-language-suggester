@@ -5,27 +5,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Programming Language Suggester</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
 </head>
 <body>
   <h1>Programming Language Suggester</h1>
-  <p>Welcome! Interested in programming? With so many programming languages used today it can be hard to know where to start. Use this website to help you determine which programming language is right for you! Our handy tool helps you determine which of three common programming languages is right for you. Use the form below to find out.</p>
+  <p>Welcome! Interested in programming? With so many programming languages used today it can be hard to know where to start. Use this website to help you determine which programming language is right for you! This handy tool helps you determine which of five common programming languages is right for you. Answer five yes/no questions below then hit submit to have your answer displayed below!</p>
   <h2>About Each Programming Language</h2>
   <p>
     <ul>
       <li><b>Python</b> - a high-level, general-purpose programming language. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.</li>
       <li><b>C#</b> - a general-purpose high-level programming language supporting multiple paradigms. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.</li>
-      <li><b>JavaScript</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
+      <li><b>Swift</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
+      <li><b>Ruby</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
+      <li><b>COBOL</b> - a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</li>
     </ul>
   </p>
-  <form>
-
-
-
+  <form id="languagePicker">
+    <ol>
+      <li>
+        <label id="question1">Do you want to do iOS mobile development only?:
+          <input type="radio" name="q1" value="true"> Yes
+          <input type="radio" name="q1" value="false"> No
+        </label>
+      </li>
+      <br>
+      <br>
+      <li>
+        <label id="question2"> Do you want to learn a language named after a snake?:
+          <input type="radio" name="q2" value="true"> Yes
+          <input type="radio" name="q2" value="false"> No
+        </label>
+      </li>
+      <br>
+      <br>
+      <li>
+        <label id="question3"> Do you want to learn a language named after a snake?:
+          <input type="radio" name="q3" value="true"> Yes
+          <input type="radio" name="q3" value="false"> No
+        </label>
+      </li>
+      <br>
+      <br>
+      <li>
+        <label id="question4"> Do you want to learn a language named after a snake?:
+          <input type="radio" name="q4" value="true"> Yes 
+          <input type="radio" name="q4" value="false"> No
+        </label>
+      </li>
+      <br>
+      <br>
+      <li>
+        <label id="question5"> Do you want to learn a language named after a snake?:
+          <input type="radio" name="q5" value="true"> Yes
+          <input type="radio" name="q5" value="false"> No
+        </label>
+      </li>
+  </ol>
+  <button type="submit">Submit</button>
   </form>
-  
   <h2>Results:</h2>
-  <p></p>
+  <p id="language-selection"></p>
 </body>
 </html>
