@@ -7,15 +7,15 @@ function decisionTree(event) {
   const qu5 = document.querySelector("input[name='q5']:checked").value;
 
   let result;
-  if ((qu1 === "false")) {
-    result = "language a";
-  } else if ((qu1 === "true" && qu2 === "false" && qu3 === "false")) {
+  if ((qu1 === "true") && qu1, qu3, qu4, qu5 === "false" ) {
+    result = "Swift";
+  } else if ((qu1 === "false" && qu2 === "true" && qu3 === "true")) {
     result = "language b";
-  } else if ((qu1 === "true" && qu2 === "true" && qu4 === "true")) {
+  } else if ((qu1 === "false" && qu2 === "false" && qu4 === "false")) {
     result = "language c";
-  } else if ((qu1 === "true" && qu2 === "false" && qu3 === "true" && qu5 === "false")) {
+  } else if ((qu1 === "false" && qu2 === "true" && qu3 === "false" && qu5 === "true")) {
     result = "language d";
-  } else if (qu1 === "true" && qu2 === "false" && qu3 === "true" && qu5 === "true") {
+  } else if (qu1 === "false" && qu2 === "true" && qu3 === "false" && qu5 === "false") {
     result = "language e";
   } else {
     result = "JavaScript"
