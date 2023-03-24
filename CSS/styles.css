@@ -9,3 +9,11 @@ body {
 .card-body { 
   text-align: left;
 }
+
+li {
+  margin-bottom: 10px;
+}
+
+#language-selection:hover {
+  text-decoration: underline;
+}

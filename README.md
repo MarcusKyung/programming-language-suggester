@@ -18,14 +18,14 @@ _This application is designed to assist users in selecting a coding language to 
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop._
-* _Navigate to the top level of he directory_
+* _Navigate to the top level of the directory_
 * _Open index.html_
-* _Follow instructions on screen to answer questions_
-* _Receive suggestion on which programming language to learn first_
+* _Follow instructions on screen to answer yes/no questions by clicking radio buttons_
+* _Receive suggestion on which programming language to learn_
 
 ## Known Bugs
 
-* _No known issues_
+* _Application currently does not take into account all of the user's inputs_
 
 ## License
 
