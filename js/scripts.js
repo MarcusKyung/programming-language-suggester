@@ -6,7 +6,8 @@ function decisionTree(event) {
   const question4 = document.querySelector("input[name='q4']:checked").value;
   const question5 = document.querySelector("input[name='q5']:checked").value;
 
-  let result;
+  let resultName;
+  let resultDescription;
   if ((question1 === "true")) {
     resultName = "Swift"
     resultDescription = "Swift. Based on your desire to work with Swift is a high-level general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community for use with iOS, macOS, watchOS, and tvOS.";

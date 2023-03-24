@@ -13,7 +13,7 @@
 
 ## Description
 
-_This application is designed to assist users in selecting a coding language to learn based on several queries regarding their personality and programming ambitions. Users provide answers to each question and are asked to submit responses. Users are then presented with one of three coding language recommendations._
+_This application is designed to assist users in selecting a coding language to learn based on several queries regarding their personality and programming ambitions. Users provide answers to each question and are asked to submit responses. Users are then presented with one of three coding language recommendations. This application is also available on GH Pages at: _
 
 ## Setup/Installation Requirements
 
@@ -31,7 +31,7 @@ _This application is designed to assist users in selecting a coding language to 
 
 _For questions, comments, or concerns please reach out at Kyungmj@gmail.com_
 
-_MIT License
+MIT License
 
 Copyright (c) [2023] [Marcus Kyung]
 
@@ -40,4 +40,4 @@ in the Software without restriction, including without limitation the rights to 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR\ A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR\ A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
