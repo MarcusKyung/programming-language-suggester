@@ -26,6 +26,7 @@ _This application is designed to assist users in selecting a coding language to 
 ## Known Bugs
 
 * _Application currently does not take into account all of the user's inputs_
+* _Bootstrap styling not populating_
 
 ## License
 
